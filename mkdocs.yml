@@ -1,0 +1,109 @@
+site_name: Python Reference Manual
+site_description: Practical Python code reference for geospatial and data work
+site_url: https://your-org.github.io/your-repo/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Python Basics:
+    - basics/index.md
+    - Variables & Operators: basics/variables-and-operators.md
+    - Numbers: basics/numbers.md
+    - Strings: basics/strings.md
+    - Lists: basics/lists.md
+    - Dictionaries: basics/dictionaries.md
+    - Input/Output Files: basics/input-output-files.md
+    - Statements: basics/statements.md
+  - Modules:
+    - modules/index.md
+    - Date & Time: modules/datetime.md
+    - NumPy: modules/numpy.md
+    - CSV: modules/csv.md
+    - Pandas: modules/pandas.md
+    - TXT Files: modules/txt-files.md
+    - NetCDF: modules/netcdf.md
+    - Matplotlib: modules/matplotlib.md
+    - String Formatting: modules/string-formatting.md
+    - Multiprocessing: modules/multiprocessing.md
+    - NetworkX: modules/networkx.md
+    - XML: modules/xml.md
+  - ArcGIS:
+    - arcgis/index.md
+    - ArcGIS 9.3 vs 10.0: arcgis/arcgis-versions.md
+    - Layer Info: arcgis/layer-info.md
+    - List Methods: arcgis/list-methods.md
+    - Working with Tables: arcgis/tables.md
+    - Batch Union: arcgis/batch-union.md
+    - NumPy Array: arcgis/numpy-array.md
+    - Raster Operations: arcgis/raster-operations.md
+    - Mapping: arcgis/mapping.md
+    - Environment Settings: arcgis/environment.md
+    - Spatial Reference: arcgis/spatial-reference.md
+    - Geometries: arcgis/geometries.md
+    - Module Installation: arcgis/module-installation.md
+    - GEE Integration: arcgis/arcgis-gee.md
+    - Raster Analysis: arcgis/raster-analysis.md
+  - GRASS:
+    - grass/index.md
+    - Set Variables: grass/set-variables.md
+    - Get Info: grass/get-info.md
+    - Run Commands: grass/run-commands.md
+    - Work with Mapset: grass/mapset.md
+  - GDAL:
+    - gdal/index.md
+    - Raster Dataset: gdal/raster-dataset.md
+    - GDAL Utilities: gdal/gdal-utilities.md
+    - Raster Processing: gdal/raster-processing.md
+    - Vector Layers: gdal/vector-layers.md
+    - Vector Edit: gdal/vector-edit.md
+    - Geoprocessing: gdal/geoprocessing.md
+  - Fiona & Shapely:
+    - fiona-shapely/index.md
+    - Vector Read/Write: fiona-shapely/vector-read-write.md
+    - Geoprocessing: fiona-shapely/geoprocessing.md
+  - Google Earth Engine:
+    - gee/index.md
+    - Feature Layers: gee/feature-layers.md
+    - Image Layers: gee/image-layers.md
+  - Rasterio:
+    - rasterio/index.md
+    - Read Layer: rasterio/read-layer.md
+    - Reprojecting: rasterio/reprojecting.md
