@@ -1,6 +1,6 @@
 site_name: Python Reference Manual
 site_description: Practical Python code reference for geospatial and data work
-site_url: https://your-org.github.io/your-repo/
+site_url: https://nonpenso.github.io/python-codebook/
 
 theme:
   name: material
