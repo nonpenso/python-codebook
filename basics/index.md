@@ -1,6 +1,6 @@
 # Python Basics
 
-Core language fundamentals: variables, types, strings, lists, dictionaries, file I/O, and control flow.
+Core language fundamentals: variables, types, strings, lists, dictionaries, file I/O, control flow, and parallel processing.
 
 | Page | Description |
 |------|-------------|
@@ -11,6 +11,8 @@ Core language fundamentals: variables, types, strings, lists, dictionaries, file
 | [Dictionaries](dictionaries.md) | Key-value pairs, methods, iteration patterns |
 | [Input/Output Files](input-output-files.md) | os, shutil, zipfile, glob modules for file operations |
 | [Statements](statements.md) | Control flow (if/for/while), functions, imports, exceptions |
+| [Module Installation](module-installation.md) | Installing Python packages: pip, git, wheels, proxy setup |
+| [Multiprocessing](multiprocessing.md) | Parallel processing with Pool on multiple cores |
 
 ```{toctree}
 :maxdepth: 1
@@ -23,4 +25,6 @@ lists
 dictionaries
 input-output-files
 statements
+module-installation
+multiprocessing
 ```

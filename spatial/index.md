@@ -10,6 +10,7 @@ Python libraries for geospatial data processing, analysis, and visualization.
 | [Fiona & Shapely](fiona-shapely/index.md) | Vector file I/O and geometry manipulation |
 | [Google Earth Engine](gee/index.md) | GEE Python API for feature and image collections |
 | [Rasterio](rasterio/index.md) | Raster reading, writing, and reprojecting |
+| [NetCDF](netcdf.md) | Reading array-oriented scientific data (netCDF4, SciPy) |
 
 ```{toctree}
 :maxdepth: 2
@@ -21,4 +22,5 @@ grass/index
 fiona-shapely/index
 gee/index
 rasterio/index
+netcdf
 ```
