@@ -12,8 +12,9 @@ The `print()` function outputs values to the console.
 Hello world
 ```
 
-!!! note
-    In Python 3, `print` is a function and requires parentheses: `print("text")`. The Python 2 syntax `print "text"` no longer works.
+:::{note}
+In Python 3, `print` is a function and requires parentheses: `print("text")`. The Python 2 syntax `print "text"` no longer works.
+:::
 
 ## for
 
@@ -40,8 +41,9 @@ for numb in x:
         print("higher")
 ```
 
-!!! warning
-    The `else` clause does **not** take a condition. If you need another condition, use `elif`.
+:::{warning}
+The `else` clause does **not** take a condition. If you need another condition, use `elif`.
+:::
 
 ## while
 
@@ -65,8 +67,9 @@ def divide(x, y):
     return 0
 ```
 
-!!! note
-    Use `!=` instead of `<>` for "not equal" — the `<>` operator was removed in Python 3. Also note that `def` and `if` must be lowercase.
+:::{note}
+Use `!=` instead of `<>` for "not equal" — the `<>` operator was removed in Python 3. Also note that `def` and `if` must be lowercase.
+:::
 
 ## try / except / else
 
@@ -122,8 +125,9 @@ import numpy as np
 5
 ```
 
-!!! warning
-    Avoid using `eval()` with untrusted input — it can execute arbitrary code.
+:::{warning}
+Avoid using `eval()` with untrusted input — it can execute arbitrary code.
+:::
 
 ## exec
 
@@ -135,5 +139,6 @@ import numpy as np
 5
 ```
 
-!!! warning
-    Like `eval()`, avoid `exec()` with untrusted input. In most cases there are better alternatives (dictionaries, lists, or dedicated data structures).
+:::{warning}
+Like `eval()`, avoid `exec()` with untrusted input. In most cases there are better alternatives (dictionaries, lists, or dedicated data structures).
+:::

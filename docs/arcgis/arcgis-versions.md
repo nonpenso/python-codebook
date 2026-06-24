@@ -17,8 +17,9 @@ ArcGIS 9.3 and 10.0 have different ways to access Geoprocessing Tools through Py
 | Overwrite output | `gp.OverWriteOutput = 1` | `arcpy.env.overwriteOutput = True` |
 | Set workspace | `gp.workspace = "E:\\temp"` | `arcpy.env.workspace = "E:\\temp"` |
 
-!!! note
-    Modern ArcGIS (10.x and ArcGIS Pro) uses `import arcpy` directly. The old `arcgisscripting.create()` pattern is obsolete and should not be used in new scripts.
+:::{note}
+Modern ArcGIS (10.x and ArcGIS Pro) uses `import arcpy` directly. The old `arcgisscripting.create()` pattern is obsolete and should not be used in new scripts.
+:::
 
 ## Migrating from 9.3 to 10.0+
 

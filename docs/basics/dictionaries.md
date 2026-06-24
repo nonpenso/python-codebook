@@ -20,8 +20,9 @@ Keys are unique within a dictionary; values may repeat.
 | `dict.clear()` | Removes all items |
 | `dict.setdefault(key, value)` | Returns value if key exists; otherwise inserts key with value |
 
-!!! note
-    `dict.has_key(key)` was removed in Python 3. Use `key in dict` instead.
+:::{note}
+`dict.has_key(key)` was removed in Python 3. Use `key in dict` instead.
+:::
 
 ## Examples
 
@@ -95,5 +96,6 @@ gallahad the pure
 robin the brave
 ```
 
-!!! warning "Python 2 vs Python 3"
-    Use `dict.items()` instead of `dict.iteritems()` — the latter was removed in Python 3.
+:::{warning} Python 2 vs Python 3
+Use `dict.items()` instead of `dict.iteritems()` — the latter was removed in Python 3.
+:::

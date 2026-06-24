@@ -49,5 +49,6 @@ arcpy.ProjectRaster_management(mylyr, newlyr, newsr, resampling_type, cell_size,
 | ETRS_1989_LAEA | 3035 |
 | GCS_WGS_1984 | 4326 |
 
-!!! note
-    Use `arcpy.SpatialReference(EPSG_code)` to create a spatial reference object from an EPSG code. This is the simplest and most portable way to define coordinate systems in ArcPy scripts.
+:::{note}
+Use `arcpy.SpatialReference(EPSG_code)` to create a spatial reference object from an EPSG code. This is the simplest and most portable way to define coordinate systems in ArcPy scripts.
+:::

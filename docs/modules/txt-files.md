@@ -21,8 +21,9 @@ with open("example.txt", "r") as f:
 | `"r+"` | Read and write. File must exist. |
 | `"x"` | Exclusive creation. Fails if file already exists. |
 
-!!! warning "Write Mode Overwrites"
-    Opening a file with `"w"` will erase all existing content. Use `"a"` to append instead.
+:::{warning} Write Mode Overwrites
+Opening a file with `"w"` will erase all existing content. Use `"a"` to append instead.
+:::
 
 ## File Methods
 

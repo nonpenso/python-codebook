@@ -104,8 +104,9 @@ with zipfile.ZipFile(os.path.join(mydir, "zippedfiles.zip"), "w") as zipped:
         zipped.write(f, os.path.basename(f), compress_type=zipfile.ZIP_DEFLATED)
 ```
 
-!!! note
-    Always use `with` statements to ensure files are properly closed.
+:::{note}
+Always use `with` statements to ensure files are properly closed.
+:::
 
 ## Module glob
 
@@ -137,8 +138,9 @@ exec(open("C:/Temp/Test.py").read())
 $ python C:/Temp/Test.py
 ```
 
-!!! warning
-    `execfile()` was removed in Python 3. Use `exec(open(...).read())` or better yet, import the script as a module.
+:::{warning}
+`execfile()` was removed in Python 3. Use `exec(open(...).read())` or better yet, import the script as a module.
+:::
 
 ## Reading Keyboard Input
 
@@ -149,5 +151,6 @@ Enter your name: Alice
 'Alice'
 ```
 
-!!! note
-    In Python 3, `input()` always returns a string. Use `int(input(...))` or `float(input(...))` to read numbers. The `raw_input()` function from Python 2 was removed — `input()` in Python 3 behaves like Python 2's `raw_input()`.
+:::{note}
+In Python 3, `input()` always returns a string. Use `int(input(...))` or `float(input(...))` to read numbers. The `raw_input()` function from Python 2 was removed — `input()` in Python 3 behaves like Python 2's `raw_input()`.
+:::

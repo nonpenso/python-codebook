@@ -6,8 +6,9 @@ The `csv` module provides functionality for reading and writing CSV (Comma-Separ
 import csv
 ```
 
-!!! warning "Python 3 File Opening"
-    In Python 3, open CSV files with `newline=''` to prevent blank rows on Windows. Use text mode (`"r"` / `"w"`) instead of binary mode (`"rb"` / `"wb"` which was required in Python 2).
+:::{warning} Python 3 File Opening
+In Python 3, open CSV files with `newline=''` to prevent blank rows on Windows. Use text mode (`"r"` / `"w"`) instead of binary mode (`"rb"` / `"wb"` which was required in Python 2).
+:::
 
 ## Reading as Dictionary
 

@@ -21,8 +21,9 @@ MAPSET: MYMAPSET
 GRASS_GUI: wxpython
 ```
 
-!!! note
-    Remember to update the Location and Mapset in this file when starting a new project.
+:::{note}
+Remember to update the Location and Mapset in this file when starting a new project.
+:::
 
 ## Linux
 

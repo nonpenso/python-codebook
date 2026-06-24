@@ -61,5 +61,6 @@ cd C:\Temp
 python setup.py install
 ```
 
-!!! note
-    For ArcGIS Pro, always use the `proenv.bat` activation script before installing packages. This ensures modules are installed in the correct Python environment managed by ArcGIS Pro's Conda environment.
+:::{note}
+For ArcGIS Pro, always use the `proenv.bat` activation script before installing packages. This ensures modules are installed in the correct Python environment managed by ArcGIS Pro's Conda environment.
+:::

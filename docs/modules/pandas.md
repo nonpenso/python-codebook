@@ -194,8 +194,9 @@ df[(df["age"] > 25) & (df["city"] == "London")]
 df[(df["age"] < 20) | (df["age"] > 60)]
 ```
 
-!!! note "Parentheses Required"
-    When combining conditions with `&` or `|`, each condition must be wrapped in parentheses.
+:::{note} Parentheses Required
+When combining conditions with `&` or `|`, each condition must be wrapped in parentheses.
+:::
 
 ### String Filtering
 

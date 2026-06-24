@@ -430,10 +430,11 @@ ax.autoscale()
 plt.show()
 ```
 
-!!! note "Alternative: Geopandas"
-    For simpler map plotting, consider using `geopandas` which wraps Fiona and Matplotlib:
-    ```python
-    import geopandas as gpd
-    gdf = gpd.read_file("polygons.shp")
-    gdf.plot()
-    ```
+:::{note} Alternative: Geopandas
+For simpler map plotting, consider using `geopandas` which wraps Fiona and Matplotlib:
+```python
+import geopandas as gpd
+gdf = gpd.read_file("polygons.shp")
+gdf.plot()
+```
+:::

@@ -112,15 +112,16 @@ for book in books:
         print(f"\nBook with id=2: {title}")
 ```
 
-!!! note "Alternative: ElementTree"
-    For most use cases, `xml.etree.ElementTree` provides a simpler and more Pythonic API:
-    ```python
-    import xml.etree.ElementTree as ET
+:::{note} Alternative: ElementTree
+For most use cases, `xml.etree.ElementTree` provides a simpler and more Pythonic API:
+```python
+import xml.etree.ElementTree as ET
 
-    tree = ET.parse("catalogue.xml")
-    root = tree.getroot()
+tree = ET.parse("catalogue.xml")
+root = tree.getroot()
 
-    for book in root.findall("book"):
-        title = book.find("title").text
-        print(title)
-    ```
+for book in root.findall("book"):
+    title = book.find("title").text
+    print(title)
+```
+:::

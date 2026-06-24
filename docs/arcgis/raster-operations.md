@@ -34,5 +34,6 @@ outRas = arcsa.Raster(raster1) + arcsa.Raster(raster2)
 outRas.save(result_Obj)
 ```
 
-!!! note
-    The Raster Object method (Method 3) using `arcpy.sa` is the recommended approach in modern ArcGIS Python scripting, as it provides cleaner syntax and supports chaining multiple operations.
+:::{note}
+The Raster Object method (Method 3) using `arcpy.sa` is the recommended approach in modern ArcGIS Python scripting, as it provides cleaner syntax and supports chaining multiple operations.
+:::

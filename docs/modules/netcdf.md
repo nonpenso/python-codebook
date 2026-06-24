@@ -83,8 +83,9 @@ print(f"Min:  {np.nanmin(temp):.2f}")
 ds.close()
 ```
 
-!!! note "Always Close the File"
-    Call `ds.close()` when done, or use a context manager if the library version supports it.
+:::{note} Always Close the File
+Call `ds.close()` when done, or use a context manager if the library version supports it.
+:::
 
 ## Reading with SciPy
 
@@ -110,5 +111,6 @@ print(temp.shape)
 f.close()
 ```
 
-!!! note "SciPy Limitations"
-    `scipy.io.netcdf_file` only supports NetCDF3 format. For NetCDF4/HDF5 files, use the `netCDF4` library instead.
+:::{note} SciPy Limitations
+`scipy.io.netcdf_file` only supports NetCDF3 format. For NetCDF4/HDF5 files, use the `netCDF4` library instead.
+:::

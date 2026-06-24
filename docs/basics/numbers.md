@@ -6,8 +6,9 @@ Number data types store numeric values. Python supports the following numerical 
 - **float** — floating-point real values
 - **complex** — complex numbers (e.g., `3+4j`)
 
-!!! note
-    Python 2 had a separate `long` type. In Python 3, `int` handles arbitrarily large integers automatically.
+:::{note}
+Python 2 had a separate `long` type. In Python 3, `int` handles arbitrarily large integers automatically.
+:::
 
 ## Type Conversion
 
@@ -53,5 +54,6 @@ These functions require `import math`:
 1
 ```
 
-!!! warning "Python 2 vs Python 3"
-    In Python 2, `17/4` returned `4` (integer division). In Python 3, `/` always returns a float. Use `//` for integer division.
+:::{warning} Python 2 vs Python 3
+In Python 2, `17/4` returned `4` (integer division). In Python 3, `/` always returns a float. Use `//` for integer division.
+:::

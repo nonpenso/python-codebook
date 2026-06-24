@@ -78,8 +78,9 @@ Values are accessed using the slice operator `[ ]` and `[ : ]` with indexes star
 [0, 5, 10, 15, 20, 25]
 ```
 
-!!! note
-    In Python 3, `range()` returns an iterator, not a list. Wrap it with `list()` if you need an actual list.
+:::{note}
+In Python 3, `range()` returns an iterator, not a list. Wrap it with `list()` if you need an actual list.
+:::
 
 ## Iteration
 

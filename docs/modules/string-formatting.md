@@ -1,7 +1,8 @@
 # String Formatting (% Operator)
 
-!!! note "Prefer f-strings"
-    The `%` formatting operator is a legacy approach. In modern Python (3.6+), **f-strings** are the preferred method for string formatting. See [Strings](../basics/strings.md) for details on f-strings.
+:::{note} Prefer f-strings
+The `%` formatting operator is a legacy approach. In modern Python (3.6+), **f-strings** are the preferred method for string formatting. See [Strings](../basics/strings.md) for details on f-strings.
+:::
 
 The `%` operator allows you to embed values inside a string using conversion specifications.
 

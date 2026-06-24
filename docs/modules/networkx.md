@@ -105,13 +105,14 @@ print(components)  # [{1, 2, 3}, {4, 5}]
 print(nx.number_connected_components(G))  # 2
 ```
 
-!!! warning "Removed: connected_component_subgraphs"
-    `nx.connected_component_subgraphs(G)` was removed in NetworkX 2.4. Use this pattern instead:
-    ```python
-    for component in nx.connected_components(G):
-        subgraph = G.subgraph(component).copy()
-        # work with subgraph
-    ```
+:::{warning} Removed: connected_component_subgraphs
+`nx.connected_component_subgraphs(G)` was removed in NetworkX 2.4. Use this pattern instead:
+```python
+for component in nx.connected_components(G):
+    subgraph = G.subgraph(component).copy()
+    # work with subgraph
+```
+:::
 
 ### Isolates
 

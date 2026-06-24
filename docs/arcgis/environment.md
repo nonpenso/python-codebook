@@ -46,5 +46,6 @@ arcpy.env.outputCoordinateSystem = "WGS 1984 UTM Zone 18N.prj"
 arcpy.env.geographicTransformations = "Arc_1950_To_WGS_1984_5; PSAD_1956_To_WGS_1984_6"
 ```
 
-!!! note
-    Always set `arcpy.env.overwriteOutput = True` at the beginning of your scripts if you want to allow overwriting existing output files. This prevents errors when re-running scripts during development.
+:::{note}
+Always set `arcpy.env.overwriteOutput = True` at the beginning of your scripts if you want to allow overwriting existing output files. This prevents errors when re-running scripts during development.
+:::

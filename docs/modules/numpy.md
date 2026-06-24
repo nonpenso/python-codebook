@@ -158,5 +158,6 @@ c[0] = 99
 print(a)  # [1 2 3] — a is unchanged
 ```
 
-!!! warning "Assignment vs Copy"
-    Using `b = a` does **not** create a new array. Both variables reference the same data in memory. Always use `.copy()` when you need an independent copy.
+:::{warning} Assignment vs Copy
+Using `b = a` does **not** create a new array. Both variables reference the same data in memory. Always use `.copy()` when you need an independent copy.
+:::

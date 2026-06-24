@@ -63,5 +63,6 @@ for i in range(0, len(n)):
 plt.show()
 ```
 
-!!! note
-    The block-based approach is essential for large rasters that don't fit entirely into memory. Adjust the `block` variable (default 1000 pixels) based on your available RAM and raster size.
+:::{note}
+The block-based approach is essential for large rasters that don't fit entirely into memory. Adjust the `block` variable (default 1000 pixels) based on your available RAM and raster size.
+:::

@@ -44,5 +44,6 @@ os.environ['https_proxy'] = "http://login:password@proxy.example.com:8012"
 ee.Initialize()
 ```
 
-!!! note
-    For newer versions of the Earth Engine API, use `ee.Authenticate()` followed by `ee.Initialize(project='your-project-id')` instead of the older authentication method. The proxy settings are only needed in restricted network environments.
+:::{note}
+For newer versions of the Earth Engine API, use `ee.Authenticate()` followed by `ee.Initialize(project='your-project-id')` instead of the older authentication method. The proxy settings are only needed in restricted network environments.
+:::

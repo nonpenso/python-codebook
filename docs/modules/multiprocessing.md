@@ -39,8 +39,9 @@ if __name__ == "__main__":
     print(results)  # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
-!!! warning "The `if __name__ == '__main__'` Guard"
-    On Windows, multiprocessing requires the `if __name__ == "__main__"` guard to prevent infinite process spawning.
+:::{warning} The `if __name__ == '__main__'` Guard
+On Windows, multiprocessing requires the `if __name__ == "__main__"` guard to prevent infinite process spawning.
+:::
 
 ## Pool Methods
 

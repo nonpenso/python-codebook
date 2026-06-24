@@ -43,8 +43,9 @@ Python has the following standard data types:
 | `>=` | Greater than or equal to | `a >= b` → True |
 | `<=` | Less than or equal to | `a <= b` → False |
 
-!!! note
-    The `<>` operator from Python 2 has been removed. Use `!=` instead.
+:::{note}
+The `<>` operator from Python 2 has been removed. Use `!=` instead.
+:::
 
 ### Assignment Operators
 
