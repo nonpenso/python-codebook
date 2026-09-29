@@ -241,6 +241,13 @@ df["age"].where(df["age"] > 30)
 df.query("age > 30 and city == 'London'")
 ```
 
+## Iterate
+
+```python
+for index, row in df.iterrows():
+    print(row['ColumnA'], row['ColumnB'])
+```
+
 ## Merge and Join
 
 ### Concatenate
