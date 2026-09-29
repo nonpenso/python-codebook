@@ -111,7 +111,7 @@ df["city"].nunique()
 df = df.rename(columns={"name": "full_name", "age": "years"})
 ```
 
-## Delete Rows
+## Delete Rows and Columns
 
 ```python
 # Drop rows by index
@@ -126,6 +126,11 @@ df = df.dropna(subset=["age"])
 
 # Reset index after dropping
 df = df.reset_index(drop=True)
+
+# Drop columns
+df = df.drop('column_name', axis=1)          # one column
+df = df.drop(columns=['columnA', 'columnB']) # by names
+df = df.drop(df.columns[[0, 1, 3]], axis=1)  # by index
 ```
 
 ## Operations
