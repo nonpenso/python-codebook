@@ -193,10 +193,16 @@ df[["name", "age"]]
 ```python
 # Single condition
 df[df["age"] > 30]
+df.loc[df['age']=='35', 'name']
 
 # Multiple conditions (use & for AND, | for OR)
 df[(df["age"] > 25) & (df["city"] == "London")]
 df[(df["age"] < 20) | (df["age"] > 60)]
+```
+
+### Select a value
+```python
+df[df["age"] == 30].values[0]  # from a row use index
 ```
 
 :::{note} Parentheses Required
